@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginStart="10sp"
+
+        >
+
+        <ListView
+            android:id="@+id/listademusicos"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            android:layout_marginTop="230sp"/>
+            <Button
+                android:id="@+id/btn_sair"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="sair"
+                android:textSize="20sp"
+
+                android:layout_marginTop="255sp"/>
+
+
+
+
+
+
+
+        </ListView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
